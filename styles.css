@@ -56,12 +56,22 @@ body > div {
 
 .info-images {
   display: flex;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
 }
 
 .image {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image p {
+  font-style: italic;
 }
 
 .info img {
@@ -72,7 +82,18 @@ body > div {
 }
 
 .quote {
-  background-color: #e5e7eb;
+  background-color: #e5e7ebb1;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
 }
 
 .call-action div {
