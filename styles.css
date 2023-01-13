@@ -137,6 +137,15 @@ blockquote {
 .footer {
   background-color: rgb(43, 43, 43);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.footer p {
+  margin: 0;
 }
 
 /* Header Styles */
